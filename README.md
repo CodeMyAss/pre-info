@@ -1,8 +1,14 @@
 pre-info
 ========
 
-Files containing pre info for nZEDb.
+###2014-06-23:
 
-datafiles is for the backfill_predb script. Be ssure that mysql has read/write access to the web root. Be sure that your mysql user has the priviliges need to import.
+Please download our predb dumps on our [forum](http://forums.nzedb.com/index.php?topic=1614.0), they are regularly updated and contain millions of PRE titles. You can import them using a script included with nZEDb.
+
+Thanks!
+
+Original readme follows:
+---
+Files containing pre info for nZEDb.
 
 manual import you can unzip and mysql -p nzedb < predb1.sql
